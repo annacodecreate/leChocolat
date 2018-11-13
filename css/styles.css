@@ -37,9 +37,14 @@ body{
 }
 tr:hover {background-color:#dbb08db0!important}
 
+.card-header:first-child  {
+    background-color: #ffdc18!important;
+}
+
 .tab-content {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     padding: 10px;
   }
+
