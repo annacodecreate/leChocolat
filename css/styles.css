@@ -60,3 +60,9 @@ h3.card-header.bg-light.text-white  {
     left: 0;
     min-height: 300px;
 }
+
+.h4.modal-title {
+    
+    color: #0f0f0f
+
+}
