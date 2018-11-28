@@ -37,7 +37,7 @@ body{
 }
 tr:hover {background-color:#dbb08db0!important}
 
-.card-header:first-child  {
+h3.card-header.bg-light.text-white  {
     background-color: #ffdc18!important;
 }
 
