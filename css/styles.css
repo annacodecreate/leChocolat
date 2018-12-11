@@ -61,8 +61,12 @@ h3.card-header.bg-light.text-white  {
     min-height: 300px;
 }
 
-.h4.modal-title {
+h4.modal-title {
     
-    color: #0f0f0f
+    color: #0f0f0f;
 
+}
+
+label.col-md-6.col-form-label, label.col-md-4.col-form-label{
+    color: black;
 }
