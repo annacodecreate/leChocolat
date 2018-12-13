@@ -70,3 +70,8 @@ h4.modal-title {
 label.col-md-6.col-form-label, label.col-md-4.col-form-label{
     color: black;
 }
+#carouselButtons {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+}

@@ -106,8 +106,8 @@
                 <div class="col col-sm-3">
                     <p style="padding-left: 5px;"></p>
                     <a data-toggle="modal" data-target="#reserveModal" type="button" class="btn btn-warning btn-sm btn-block"
-                        data-toggle="tooltip" data-html="true" title="Or Call us at + 987 6543 2100"
-                        data-placement="bottom" href="#reserve-form">
+                        data-toggle="tooltip" data-html="true" title="Or Call us at + 987 6543 2100" data-placement="bottom"
+                        href="#reserve-form">
                         Reserve your baskets
                     </a>
                 </div>
@@ -270,7 +270,15 @@
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
-
+                        <!--stop and cyrcle controls-->
+                        <div class="btn-group" id="carouselButtons">
+                            <button class="btn btn-danger btn-sm" id="carousel-pause">
+                                <span class="fa fa-pause"></span>
+                            </button>
+                            <button class="btn btn-danger btn-sm" id="carousel-play">
+                                <span class="fa fa-play"></span>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -455,6 +463,7 @@
     <script src="node_modules/tether/dist/js/tether.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
     <script>
         $(function () {
             $('[data-toggle="tooltip"]').tooltip()
